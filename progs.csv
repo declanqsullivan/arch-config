@@ -1,0 +1,33 @@
+install_method,name_or_url,purpose
+,alacritty,terminal
+,cmus,music
+,dmenu,runs commands and provides a UI for selection.
+,,my version of dwm window manager
+,ffmpeg,can record and splice video and audio on the command line.
+,fzf,is a fuzzy finder tool.
+,htop,
+,maim,can take quick screenshots at your request.
+,man-db,lets you read man pages of programs.
+,mpv,is the patrician's choice video player.
+,neovim,a tidier vim with some useful features
+,newsboat,is a terminal RSS client.
+,noto-fonts,
+,noto-fonts-emoji,is an emoji font.
+,ntfs-3g,allows accessing NTFS partitions.
+,qutebrowser,
+,sxiv,is a minimalist image viewer.
+aur,task-spooler,queues commands or files for download.
+,tmux,terminal multiplexer
+,unzip,unzips zips.
+,xclip,allows for copying and pasting from the command line.
+,xcompmgr,is for transparency and removing screen-tearing.
+,xorg-server,is the graphical server.
+,xorg-xinit,starts the graphical server.
+,xwallpaper,sets the wallpaper.
+,youtube-dl,can download any YouTube video (or playlist or channel) when given the link.
+,zathura,is a pdf viewer with vim-like bindings.
+,zathura-pdf-mupdf,allows mupdf pdf compatibility in zathura.
+,wget,
+,pass,
+,pdf-grep,
+,tor-browser-launcher,
