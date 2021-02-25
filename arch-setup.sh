@@ -3,8 +3,8 @@
 # by decla (mostly)
 
 ### OPTIONS AND VARIABLES ###
-dotfilesrepo="https://github.com/declanqsullivan/dotfiles"
-progsfile="https://raw.githubusercontent.com/declanqsullivan/dotfiles/main/arch-default-programs.csv"
+dotfilesrepo="https://github.com/declanqsullivan/rice"
+progsfile="https://raw.githubusercontent.com/declanqsullivan/my-os-setup/main/default-programs.csv"
 aurhelper="yay"
 repobranch="main"
 
@@ -181,4 +181,5 @@ newperms "%wheel ALL=(ALL) ALL
 # Last message! Install complete!
 printf "All done! Just press ENTER, and the system will reboot"
 read
+# reboot
 
