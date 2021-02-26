@@ -71,7 +71,7 @@ maininstall() { # Installs all needed programs from main repo.
 gitmakeinstall() {
 	progname="$(basename "$1" .git)"
 	dir="$repodir/$progname"
-    printf "Installing progname ($n of $total) via git and make. $(basename "$1")\n"
+    printf "Installing $progname ($n of $total) via git and make. $(basename "$1")\n"
 	sudo -u "$name" git clone --depth 1 "$1" "$dir" >/dev/null 2>&1 || { cd "$dir" || return 1 ; sudo -u "$name" git pull --force origin master;}
 	cd "$dir" || exit 1
 	make >/dev/null 2>&1
@@ -96,6 +96,7 @@ installationloop() { \
 	aurinstalled=$(pacman -Qqm)
 	while IFS=, read -r method program comment; do
 		n=$((n+1))
+        echo "$comment" | grep -q "^\".*\"$" && comment="$(echo "$comment" | sed "s/\(^\"\|\"$\)//g")"
 		case "$method" in
 			"aur") aurinstall "$program" ;;
 			"git") gitmakeinstall "$program" ;;
