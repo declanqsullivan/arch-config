@@ -1,4 +1,4 @@
-#TAG,name_or_url,purpose
+method,name_or_url,purpose
 ,alacritty,terminal
 ,cmus,music player
 ,dmenu,program opener and command runner

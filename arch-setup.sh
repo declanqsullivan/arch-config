@@ -94,9 +94,9 @@ installationloop() { \
 	([ -f "$progsfile" ] && cp "$progsfile" /tmp/programs.csv) || curl -Ls "$progsfile" | sed '/^#/d' > /tmp/programs.csv
 	total=$(wc -l < /tmp/programs.csv)
 	aurinstalled=$(pacman -Qqm)
-	while IFS=, read -r method program; do
+	while IFS=, read -r method program comment; do
 		n=$((n+1))
-		case "$tag" in
+		case "$method" in
 			"aur") aurinstall "$program" ;;
 			"git") gitmakeinstall "$program" ;;
 			"pip") pipinstall "$program" ;;
