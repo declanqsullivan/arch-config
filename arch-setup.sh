@@ -166,7 +166,7 @@ rm -f "/home/$name/README.md"
 git update-index --assume-unchanged "/home/$name/README.md"
 
 # Most important command! Get rid of the beep!
-systembeepoff
+# systembeepoff
 
 # Make zsh the default shell for the user.
 chsh -s /bin/zsh "$name" >/dev/null 2>&1
