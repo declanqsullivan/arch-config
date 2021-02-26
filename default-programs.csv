@@ -1,35 +1,35 @@
 method,name_or_url,purpose
-,alacritty,terminal
-,cmus,music player
-,dmenu,program opener and command runner
-git,https://github.com/declanqsullivan/dwm.git,window manager
-git,https://github.com/declanqsullivan/dwmstatus.git,statusbar for window manager
-,ffmpeg,audio stuff
-,fzf,fuzzy finder tool
-,htop,task manager equivalent
-,maim,screenshots
-,man-db,man pages
-,mpv,video player
-,neovim,the real vim
-,newsboat,rss
-,noto-fonts,font
-,noto-fonts-emoji,emoji font
-,ntfs-3g,NTFS partition access and stuff
-,qutebrowser,vim based browser
-,sxiv,image viewer
-aur,task-spooler,queues commands
-,tmux,terminal multiplexer
-,unzip,unzips zips
-,zip,zips zips
-,xclip,copying and pasting on cmd line
-,xcompmgr,transparency + fix screen-tearing
-,xorg-server,graphical server
-,xorg-xinit,starts graphical server
-,xwallpaper,setting wallpaper
-,youtube-dl,video downloader
-,zathura,pdf viewer
-,zathura-pdf-mupdf,mupdf pdf functionality for zathura
-,wget,
-,pass,password manager
-,pdf-grep,searching pdfs
-,tor-browser-launcher,tor browser
+,alacritty,"terminal"
+,cmus,"music player"
+,dmenu,"program opener and command runner"
+git,https://github.com/declanqsullivan/dwm.git,"window manager"
+git,https://github.com/declanqsullivan/dwmstatus.git,"statusbar for window manager"
+,ffmpeg,"audio stuff"
+,fzf,"fuzzy finder tool"
+,htop,"task manager equivalent"
+,maim,"screenshots"
+,man-db,"man pages"
+,mpv,"video player"
+,neovim,"the real vim"
+,newsboat,"rss"
+,noto-fonts,"font"
+,noto-fonts-emoji,"emoji font"
+,ntfs-3g,"NTFS partition access and stuff"
+,qutebrowser,"vim based browser"
+,sxiv,"image viewer"
+aur,task-spooler,"queues commands"
+,tmux,"terminal multiplexer"
+,unzip,"unzips zips"
+,zip,"zips zips"
+,xclip,"copying and pasting on cmd line"
+,xcompmgr,"transparency + fix screen-tearing"
+,xorg-server,"graphical server"
+,xorg-xinit,"starts graphical server"
+,xwallpaper,"setting wallpaper"
+,youtube-dl,"video downloader"
+,zathura,"pdf viewer"
+,zathura-pdf-mupdf,"mupdf pdf functionality for zathura"
+,wget,"something"
+,pass,"password manager"
+,pdf-grep,"searching pdfs"
+,tor-browser-launcher,"tor browser"
